@@ -1,0 +1,93 @@
+
+
+body{
+    background-image: url("banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+    color: white ;
+    font-size: 200%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p{
+    color: #000;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+.foto img:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
+.foto img:hover {filter: opacity(.5);}
+
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+li a.active, li a:hover{
+  background: #a3a3b2;
+  transition: .5s;
+}
+  
+  footer img{
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(207, 204, 177);
+}
+  
+main > h3, p, .destacado {
+    margin: 10px;
+    padding: 5px;
+}
+  
+.destacado {
+    background: #f5d8c4b6;
+}
+  
+.destacado > h3, p {
+    margin: 4px;
+    font-size: 90%;
+}
+h3{
+    color: #e59661b6;
+    
+}
+footer{
+    background: #f5d8c4b6;
+    width: 100%;
+    height: 50px;
+    background-image: url(https://arena.km.ua/wp-content/uploads/3538533.jpg);
+}
+
+
+
+
+    
+    
